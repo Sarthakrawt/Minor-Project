@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/miniproject.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" >
+    <link rel="stylesheet" href="style/loco.css">
+    <title>Document</title>
+</head>
+<body>
+  <!-- sidebar  -->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+  <!-- pointer -->
+    <div id="minicircle"></div>
+<!-- main div start form here -->
+  <div id ="main">
+ <!-- inside this hero div there are headers and headers-footers -->
+<div id="hero">
+   <!-- it is for headers -->
+    <div id="nav">
+      <!-- webiste logo -->
+       <p style="font-size: 30px;"> &#x2554  &#9572</p>
+       <!-- menu symbol -->
+        <!-- function call is for change the symbol to x and the other function is for 
+        side bar -->
+      <div class="menu" onclick="myFunction(this); openNav(); ">
+        <!-- this are the three bars for menu symbol -->
+        <h1 class="bar1"></h1>
+        <h1 class="bar2"></h1>
+        <h1 class="bar3"></h1> 
+      </div>  
+      
+    </div>
+
+     <!-- heading of webiste  -->
+    <div id="heading">
+        <div class="bounding"> <h1 class="boundingelem head">HomeFit</h1></div>
+      <div class="blocktext">
+         <div class="bounding"> <h1 class="boundingelem" id="head-para1">Home Workouts</h1></div>
+         <div class="bounding"> <h1 class="boundingelem" id="head-para2"> &#x26 Exercises</h1></div>
+      </div>
+     </div>
+      <!-- head-footer -->
+      <div id="herofooter">
+         <a href="#" id="help">help<i class="ri-arrow-right-up-line"></i></a>
+         <a href="#" id="About">About<i class="ri-arrow-right-up-line"></i></a>
+        <div id="icon-set">
+            <div class="circle"><i class="ri-arrow-down-s-fill"></i></div>
+            <div class="circle"><i class="ri-arrow-down-s-fill"></i></div>
+        </div>
+      </div>
+    
+    </div> 
+    
+    <!-- second section  -->
+   <div id ="second">
+    <!-- background video -->
+    <video muted autoplay loop >
+      <source src="/image/3327806-hd_1920_1080_24fps.mp4" type="video/mp4">
+    </video>
+    <!-- now all this div or container are for particular section of Exercises -->
+  <div class="elem">
+    <!-- yoga -->
+    <img src="/image/pexels-chevanon-317155.jpg">
+    <h1><a href="https://www.youtube.com/playlist?list=PL4vfimezsLrQ0a4V1jqLl-7vhSkfr_YG4" target="blank">yoga</a></h1>
+    <h5>I</h5>
+  </div>
+  <div class="elem">
+    <!-- home workouts -->
+    <img src="/image/pexels-victorfreitas-791764.jpg">
+    <h1><a href=" https://www.youtube.com/playlist?list=PLIn3nS9mJKxnpffRDh6olCORLjj69qt70" target="blank"> fullbody workout</a></h1>
+    <h5>I</h5>
+  </div>
+  <div class="elem elemlast">
+    <!-- calestanics -->
+    <img src="/image/pexels-tima-miroshnichenko-6572662.jpg">
+    <h1><a href="https://www.youtube.com/playlist?list=PLOIXepd1L0kArd3pICAqd6cLLa4bKpYSa"  target="blank"> calestanics</a></h1>
+    <h5>I</h5>
+  </div>
+   </div>
+   
+
+   <!-- footers -->
+ <div id="about">
+    <img src="/image/pexels-marcus-aurelius-6787520.jpg" class="bob">
+    <div id="textabout">
+        <h5>bob</h5>
+        <p>This workouts help us a lot to get fit and we feels like we 
+          are back in our old days. So, if you are also want to be fit.
+        Start you journey now.</p>
+        <a type="search">Chat with me</a>
+    </div>
+ </div>
+ <div id ="subscribe">
+    <h5>(forgot to metion)</h5>
+    <h3><a href="https://www.youtube.com/shorts/Ag1GSVOO6fY" target="blank">susbscribe to my youtubee channel<i class="ri-arrow-right-up-line"></i></a></h3>
+ </div>
+ <div id="footer">
+ <div id ="footerleft">
+    <h5>2023 &copy;</h5>
+    <h5>0:05 AM EST</h5>
+ </div>
+ <div id ="footerright">
+    <a href="#">dribbble</a>
+    <a href="https://www.instagram.com/cbum/?hl=en" target="_blank">instagram</a>
+    
+    <a href="https://twitter.com/c_bumstead?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">twitter</a>
+ </div>
+ </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+  <script src="javascriptfile/miniproject.js"></script>
+</body>
+</html>
